@@ -6,6 +6,21 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
+
+.btn-inicio{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+}
+
+.mi-estilo-icon{
+    font-size: 40px;
+    z-index: 20;
+    color: #4ab446;
+    font-weight: 900;
+}
+
 .animado{
     opacity: 0;
     transition: all 0.5s;
@@ -37,7 +52,7 @@ body{
 
 /* mi-estilo-slide */
 .estilos-mi-imagen{
-    height: 45vh;
+    height: 65vh;
     width: 100%;
     object-fit: cover;
     
@@ -49,13 +64,13 @@ body{
 
 .slide-fondo{
     width: 100%;
-    min-height: 45vh;
+    /* min-height: 45vh; */
 }
 
 .slide-fondo::before{
     content: "";
     width: 100%;
-    min-height: 45vh;
+    /* min-height: 45vh; */
     position: absolute;
     top:0;
     left:0;
@@ -94,7 +109,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 280px;
-    gap: 25px;
+    gap: 30px;
     
 }
 .contenido-grid{
