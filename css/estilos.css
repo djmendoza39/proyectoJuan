@@ -37,7 +37,7 @@ body{
 
 /* mi-estilo-slide */
 .estilos-mi-imagen{
-    height: 90vh;
+    height: 45vh;
     width: 100%;
     object-fit: cover;
     
@@ -47,18 +47,46 @@ body{
    
 }
 
-.contenedor-carousel::before{
+.slide-fondo{
+    width: 100%;
+    min-height: 45vh;
+}
+
+.slide-fondo::before{
     content: "";
     width: 100%;
-    min-height: 90vh;
+    min-height: 45vh;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: linear-gradient(180deg, #002C51, #044880, #025da8b6);
-    opacity: 0.5;
+    top:0;
+    left:0;
+    bottom: 0;
+    background-image: linear-gradient(180deg, #002C51, #002d51da, #002d51bc, #002d516e,#002d5142);
+    z-index: 1;
     
 }
+ /* quienes somos */
+ .contenedor-flex{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+ }
+
+ .contenedor-quienes{
+    
+     flex: 0 1 80%;
+     order: 2;
+    }
+.img-quienes-somos{
+     flex: 0 1 50%;
+    order: 1;
+    text-align: right;
+ }
+
+ .estilos-img-quienes{
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+ }
 
 /* prueba grid */
 
@@ -66,10 +94,13 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 280px;
-    gap: 20px;
+    gap: 25px;
+    
 }
 .contenido-grid{
     position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
 
 }
 
@@ -79,8 +110,12 @@ body{
     background-size: cover;
     width: 100%;
     min-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
 
 }
+
+
 
 
 
@@ -88,22 +123,15 @@ body{
     content: "";
     width: 100%;
     min-height:100% ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
     position: absolute;
     top:0;
     left: 0;
-    background-image: linear-gradient(360deg, #001a2ff5, #001a2fa2, #001a2f73, #001a2f4f);
+    background-image: linear-gradient(360deg, #002C51, #002d51da, #002d51bc, #002d516e,#002d5142);
+
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* jumbotron-contenedor */
@@ -183,15 +211,10 @@ body{
         display: none;
     }
     .contenedor-grid{
-       
-        grid-template-columns: repeat(3, 1fr);
-        
+        grid-template-columns: repeat(3, 1fr);  
     }
-    
-
-    
+      
 }
-
 
 @media(max-width: 576px){
     .contenedor-grid{
