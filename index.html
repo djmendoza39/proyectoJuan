@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logoWeb.png" type="image/x-icon">
-    <title>Borrador Colsultoria</title>
+    <link rel="shortcut icon" href="img/mi-logo.jpeg" type="image/x-icon">
+    <title>Borrador Florentino FLorez</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 
 <body>
 
-
-    <header class="header">
+    <a class="btn-inicio" href="index.html"><i class="bi bi-whatsapp mi-estilo-icon"></i></a>
+    <header class="header mi-efecto-header">
         <div class="contenedor-info col-sm-12 p-1">
             <div class="container">
                 <div class="row justify-content-center">
                     <a class="nav-header-top" href="">Barranquilla</a>
-                    <a class="nav-header-top" href="">Bogota</a>
-                    <a class="nav-header-top" href="">+(57)222-222-22</a>
-                    <a class="nav-header-top" href="">315-4565789</a>
+                    <a class="nav-header-top" href="">Atlantico</a>
+                    <a class="nav-header-top" href="">3106302332</a>
                     <a class="nav-header-top" href=""><i class="bi bi-facebook"></i></a>
                     <a class="nav-header-top" href=""><i class="bi bi-whatsapp"></i></a>
                     <a class="nav-header-top" href=""><i class="bi bi-twitter"></i></a>
@@ -35,14 +36,14 @@
         </div>
         <div class="container">
 
-            <nav class="navbar navbar-expand-sm navbar-light">
+            <nav class="navbar navbar-expand-sm navbar-light mi-estilo-h-navbar">
                 
                     <a class="navbar-brand" href="#">
-                        <img class="mr-2" height="100" width="100" src="img/logoWeb.png"
+                        <img class="mr-2 img-fluid" height="100" width="100" src="img/mi-logo.jpeg"
                                 alt="FF consultoria">
                     </a>
                 
-                <button class="navbar-toggler d-lg-none mi-estilo-block-nav" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                <button class="navbar-toggler d-lg-none " type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -53,13 +54,13 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle"  style="color: aliceblue;" href="#" id="dropdownId" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">La firma</a>
+                                aria-haspopup="true" aria-expanded="false">Estrategia Corporativa</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Misión</a>
-                                <a class="dropdown-item" href="#">Visión</a>
-                                <a class="dropdown-item" href="#">Politica de calidad</a>
-                                <a class="dropdown-item" href="#">Valores corporativos</a>
-                                <a class="dropdown-item" href="#">Contadores públicos</a>
+                                <a class="dropdown-item" href="#">Outsourcing contable</a>
+                                <a class="dropdown-item" href="#">Revisoria Fiscal</a>
+                                <a class="dropdown-item" href="#">Implementacion NIIF</a>
+                                <a class="dropdown-item" href="#">Especialista en Asesorias tributarias</a>
+                                
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -143,7 +144,7 @@
     </div>
 
     <section class="quienes-somos">
-        <div class="container .mi-efecto p-5">
+        <div class="container .mi-efecto p-5" >
             <div class="contenedor-flex">
                 <div class="contenedor-quienes">
                     <h2 class="featurette-heading mi-efecto">QUIENES <span class="text-muted">SOMOS</span></h2>
@@ -154,8 +155,8 @@
                         <a class="mi-estilo-boton-jumbotrom" href="#">Para mas info presione aquí</a>
                 </div>
                 <div class="text-center img-quienes-somos">
-                    <img src="img/abogado_37.jpg" class=" estilos-img-quienes"
-                        alt="">
+                    <img src="img/foto-perfil.jpeg" class=" estilos-img-quienes"
+                        alt="Imagen del cliente">
                 </div>
 
 
@@ -166,7 +167,7 @@
     <section class="servicios p-5" id="efecto-js">
 
         <div class="container">
-            <div class="titulo-servicios">
+            <div class="titulo-servicios" data-aos="fade-up-right" data-aos-duration="3500">
 
                 <h2>NUESTROS SERVICIOS</h2>
                 <p>Prestamos nuestros servicios con altos estándares de calidad soportados en una metodología eficiente
@@ -175,90 +176,135 @@
                 <br>
             </div>
             <div class="container contenedor-grid">
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Mi Colsutoria</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="250">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid" >
+                            
+                            <h3>Mi Colsutoria</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                            
+                        </div>
                     </div>
                 </div>
 
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                       
-                        <h3>Auditoría financiera</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="250">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Auditoría financiera</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                            
+                        </div>
                     </div>
                 </div>
 
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Auditoria de control interno</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="250">
+                    <div class="grid-contenido contenido-grid-img " >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Auditoria de control interno</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                            
+                        </div>
                     </div>
                 </div>
 
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        <h3>Auditorias Especiales</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="250">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Auditorias Especiales</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill" ></i>
+                           
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Planeación Tributaria</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="300">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Planeación Tributaria</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                           
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="300">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Asesoria Tributaria</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
                         
-                        <h3>Asesoria Tributaria</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Auditoria Tributaria</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="300">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Auditoria Tributaria</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Asesoria Contable</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="300">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Asesoria Contable</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Auditoria Interna</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="350">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            
+                            <h3>Auditoria Interna</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Colsutoria Financiera</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="350">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            
+                            <h3>Colsutoria Financiera</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Asesoria en NIIF</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="350">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            
+                            <h3>Asesoria en NIIF</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="contenido-grid">
-                    <div class="grid-contenido contenido-grid-img">
-                        
-                        <h3>Consultoría en Sistemas</h3>
-                        <i class="bi bi-arrow-up-left-circle-fill"></i>
+                <div class="contenido-grid" data-aos=zoom-in-up data-aos-duration="3500" data-aos-offset="350">
+                    <div class="grid-contenido contenido-grid-img" >
+                        <div class="texto-contenido-grid">
+                            <h3>Consultoría en Sistemas</h3>
+                            <i class="bi bi-arrow-up-left-circle-fill"></i>
+                            
+                        </div>
                     </div>
                 </div>
         
@@ -271,7 +317,7 @@
     <div class="trabaja-con-nosotros">
         <div class="container contenedor-nosotros">
             <div class="row justify-content-center align-items-center contenedor-texto-estilo">
-                <div class=" texto-jumbotrom text-center">
+                <div class=" texto-jumbotrom text-center" data-aos="slide-left" data-aos-duration="3200">
                     <h1 class="">TRABAJA CON NOSOTROS</h1>
                     <p>Escríbanos, adjunte su hoja de vida y explíquenos por qué desea trabajar con nosotros.</p>
                     <a class="mi-estilo-boton-jumbotrom" href="#">Conozca mas de nuestra consultoría</a>
@@ -335,7 +381,7 @@
             <div class="row justify-content-center align-items-center estilo-footer">
                 <div class="col-lg-4 text-center">2020 © Todos los derechos reservados para</div>
                 <div class="col-lg-4 text-center">
-                    <img src="img/logoWeb.png" class="img-fluid" height="150" width="150" alt="">
+                    <img src="img/mi-logo.jpeg" class="img-fluid" height="150" width="150" alt="">
                 </div>
                 <div class="col-lg-4 text-center">
                     Boopstrap 2021
@@ -356,8 +402,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
-
-    <script src="js/animado.js"></script>
+        <script src="js/animado.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script> AOS.init();</script>
 
 
 </body>
