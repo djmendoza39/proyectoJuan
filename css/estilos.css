@@ -29,11 +29,11 @@ body{
 /* header */
 .header{
     background-color: #002C51;
-    /* position: fixed;
+    position: fixed;
     z-index: 100;
     top:0;
     left:0;
-    right: 0; */
+    right: 0;
 }
 .contenedor-info{
     background-color: #001A2F !important;
@@ -45,6 +45,7 @@ body{
 .nav-header-top:hover{
     text-decoration: none;
 }
+
 
 .texto-link-header{
     color: mintcream;
@@ -101,6 +102,7 @@ body{
      width: 200px;
      height: 200px;
      border-radius: 100%;
+     object-fit: cover;
  }
 
 /* prueba grid */
@@ -110,6 +112,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 280px;
     gap: 30px;
+    
     
 }
 .contenido-grid{
@@ -126,13 +129,14 @@ body{
     width: 100%;
     min-height: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    border-radius: 10px;
+    border-radius: 10px;    
+    color: cornsilk;
+    padding: .5rem;
+    
+
+    
 
 }
-
-
-
-
 
 .contenido-grid-img:before{
     content: "";
@@ -144,10 +148,30 @@ body{
     top:0;
     left: 0;
     background-image: linear-gradient(360deg, #002C51, #002d51da, #002d51bc, #002d516e,#002d5142);
-
-
+    opacity: 1;
+    
 }
 
+.texto-contenido-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: .7rem;
+    position: absolute;
+    z-index: 1;
+    height: 265px;
+}
+
+.texto-contenido-grid h3{
+    align-self: flex-end;
+    
+}
+
+.texto-contenido-grid i{
+    align-self: flex-start;
+    margin-left: 1rem;
+    
+}
 
 /* jumbotron-contenedor */
 
@@ -177,7 +201,7 @@ body{
     top:0;
     left:0;
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 34%, rgba(9,9,121,1) 100%, rgba(0,129,255,0.7035014689469538) 100%); 
+    background-image: linear-gradient(180deg, #002C51, #002d51da, #002d51bc, #002d516e,#002d5142); 
     opacity:0.8;
 } 
 
