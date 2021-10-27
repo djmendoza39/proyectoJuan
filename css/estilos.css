@@ -6,7 +6,9 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
-
+.color-boton{
+    background-color: rgb(253, 253, 252) !important;
+}
 .btn-inicio{
     position: fixed;
     bottom: 0;
@@ -29,11 +31,12 @@ body{
 /* header */
 .header{
     background-color: #002C51;
-    position: fixed;
+    position: absolute;
     z-index: 100;
     top:0;
     left:0;
     right: 0;
+    width: 100%;
 }
 .contenedor-info{
     background-color: #001A2F !important;
@@ -252,6 +255,12 @@ body{
     .contenedor-grid{
         grid-template-columns: repeat(3, 1fr);  
     }
+
+    .btn-inicio{
+        display: none;   
+    }
+
+    
       
 }
 
@@ -274,6 +283,8 @@ body{
         grid-template-columns: repeat(1, 1fr);
         
     }
+
+    
     
 
     
